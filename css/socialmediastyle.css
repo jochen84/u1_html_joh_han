@@ -1,0 +1,176 @@
+#facebooklink {
+  background-image: url(../media/facebaw.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 37px 37px;
+  padding-left: 10px;
+  width: 37px;
+  height: 37px;
+}
+#facebooklink:hover {
+  background-image: url(../media/facecolor.png);
+  width: 37px;
+  height: 37px;
+}
+
+#messengerlink {
+  background-image: url(../media/messbaw.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 37px 37px;
+  padding-left: 10px;
+  width: 37px;
+  height: 37px;
+}
+#messengerlink:hover {
+  background-image: url(../media/messcolor.png);
+  width: 37px;
+  height: 37px;
+}
+
+#instagramlink {
+  background-image: url(../media/instabaw.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 37px 37px;
+  padding-left: 10px;
+  width: 37px;
+  height: 37px;
+}
+#instagramlink:hover {
+  background-image: url(../media/instacolor.png);
+  width: 37px;
+  height: 37px;
+}
+
+#twitterlink {
+  background-image: url(../media/twitterbaw.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 37px 37px;
+  padding-left: 10px;
+  width: 37px;
+  height: 37px;
+}
+#twitterlink:hover {
+  background-image: url(../media/twittercolor.png);
+  width: 37px;
+  height: 37px;
+}
+
+#phonelink {
+  background-image: url(../media/phonebaw.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 37px 37px;
+  padding-left: 10px;
+  width: 37px;
+  height: 37px;
+}
+#phonelink:hover {
+  background-image: url(../media/phonecolor.png);
+  width: 37px;
+  height: 37px;
+}
+
+/* Tooltip Popup Facebook */
+.tooltip .tooltiptextfacebook {
+  visibility: hidden;
+  width: 200px;
+  background-color: rgb(66, 66, 66);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: fixed;
+  z-index: 1;
+  bottom: 11%;
+  left: 33.3%;
+}
+.tooltip:hover .tooltiptextfacebook {
+  visibility: visible;
+}
+
+/* Tooltip Popup Messenger */
+.tooltip .tooltiptextmessenger {
+  visibility: hidden;
+  width: 200px;
+  background-color: rgb(66, 66, 66);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: fixed;
+  z-index: 1;
+  bottom: 11%;
+  left: 36.5%;
+}
+.tooltip:hover .tooltiptextmessenger {
+  visibility: visible;
+}
+
+/* Tooltip Popup Instagram */
+.tooltip .tooltiptextinstagram {
+  visibility: hidden;
+  width: 200px;
+  background-color: rgb(66, 66, 66);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: fixed;
+  z-index: 1;
+  bottom: 11%;
+  left: 39.4%;
+}
+
+.tooltip:hover .tooltiptextinstagram {
+  visibility: visible;
+}
+
+/* Tooltip Popup Twitter */
+.tooltip .tooltiptexttwitter {
+  visibility: hidden;
+  width: 200px;
+  background-color: rgb(66, 66, 66);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: fixed;
+  z-index: 1;
+  bottom: 11%;
+  left: 42.6%;
+}
+
+.tooltip:hover .tooltiptexttwitter {
+  visibility: visible;
+}
+
+.tooltip .tooltiptextcall {
+  visibility: hidden;
+  width: 200px;
+  background-color: rgb(66, 66, 66);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: fixed;
+  z-index: 1;
+  bottom: 11%;
+  left: 45.8%;
+}
+
+.tooltip:hover .tooltiptextcall {
+  visibility: visible;
+}
