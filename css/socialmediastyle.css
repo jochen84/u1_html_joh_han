@@ -43,8 +43,8 @@
   height: 37px;
 }
 
-#twitterlink {
-  background-image: url(../media/twitterbaw.png);
+#maillink {
+  background-image: url(../media/mailbaw.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 37px 37px;
@@ -52,8 +52,8 @@
   width: 37px;
   height: 37px;
 }
-#twitterlink:hover {
-  background-image: url(../media/twittercolor.png);
+#maillink:hover {
+  background-image: url(../media/mailcolor.png);
   width: 37px;
   height: 37px;
 }
@@ -76,7 +76,7 @@
 /* Tooltip Popup Facebook */
 .tooltip .tooltiptextfacebook {
   visibility: hidden;
-  width: 200px;
+  width: 180px;
   background-color: rgb(66, 66, 66);
   color: #fff;
   text-align: center;
@@ -87,7 +87,7 @@
   position: fixed;
   z-index: 1;
   bottom: 11%;
-  left: 33.3%;
+  left: 34%;
 }
 .tooltip:hover .tooltiptextfacebook {
   visibility: visible;
@@ -96,7 +96,7 @@
 /* Tooltip Popup Messenger */
 .tooltip .tooltiptextmessenger {
   visibility: hidden;
-  width: 200px;
+  width: 195px;
   background-color: rgb(66, 66, 66);
   color: #fff;
   text-align: center;
@@ -116,7 +116,7 @@
 /* Tooltip Popup Instagram */
 .tooltip .tooltiptextinstagram {
   visibility: hidden;
-  width: 200px;
+  width: 190px;
   background-color: rgb(66, 66, 66);
   color: #fff;
   text-align: center;
@@ -127,37 +127,17 @@
   position: fixed;
   z-index: 1;
   bottom: 11%;
-  left: 39.4%;
+  left: 39.5%;
 }
 
 .tooltip:hover .tooltiptextinstagram {
   visibility: visible;
 }
 
-/* Tooltip Popup Twitter */
-.tooltip .tooltiptexttwitter {
+/* Tooltip Popup Mail */
+.tooltip .tooltiptextmail {
   visibility: hidden;
-  width: 200px;
-  background-color: rgb(66, 66, 66);
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  
-  /* Position the tooltip */
-  position: fixed;
-  z-index: 1;
-  bottom: 11%;
-  left: 42.6%;
-}
-
-.tooltip:hover .tooltiptexttwitter {
-  visibility: visible;
-}
-
-.tooltip .tooltiptextcall {
-  visibility: hidden;
-  width: 200px;
+  width: 100px;
   background-color: rgb(66, 66, 66);
   color: #fff;
   text-align: center;
@@ -169,6 +149,26 @@
   z-index: 1;
   bottom: 11%;
   left: 45.8%;
+}
+
+.tooltip:hover .tooltiptextmail {
+  visibility: visible;
+}
+
+.tooltip .tooltiptextcall {
+  visibility: hidden;
+  width: 170px;
+  background-color: rgb(66, 66, 66);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: fixed;
+  z-index: 1;
+  bottom: 11%;
+  left: 46.6%;
 }
 
 .tooltip:hover .tooltiptextcall {
